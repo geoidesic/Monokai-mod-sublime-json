@@ -1,8 +1,7 @@
 # Monokai-mod-sublime-json
 This is a theme based on a json port of Monokai with a few tweaks to make it darker.
 
-Why did I make this? Because I liked Monokai except for the grey background. I wanted a black background. 
-Also I wanted a JSON version that was easier to edit and read.
+Why did I make this? Because I liked Monokai – it's the best dark theme for sublime; except for the grey background. I wanted a black background. Also I wanted a JSON version that was easier to edit and read.
 
 To install this:
 
