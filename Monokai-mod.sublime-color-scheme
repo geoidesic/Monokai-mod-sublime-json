@@ -12,33 +12,39 @@
     "line_highlight": "#222222",
     "selection": "rgba(200, 200, 255, 0.3)",
     "invisibles": "#3B3A32",
-    "find-highlight": "#FFE792",
     "selection-border": "#222218",
-    "find-highlight-foreground": "rgba(255, 200, 200, 1)",
+    "highlight": "green",
+    "find_highlight": "rgba(200,255, 200, 0.1)",
+    "find_highlight_foreground": "green",
     "active-guide": "#9D550FB0",
     "brackets-foreground": "#F8F8F2A5",
     "brackets-options": "underline",
     "bracket-contents-foreground": "#F8F8F2A5",
     "bracket-contents-options": "underline",
-    "tags-options": "stippled_underline"
+    "tags_options": "stippled_underline",
+    "tags_foreground": "green"
   },
   "variables": {
   	"orange": "#ffa800",
   	"deep-orange": "#ff7200",
   	"fuschia": "#ae81ff",
-  	"pale-green": "#AAFAAA",
   	"pink": "#FFAAFF",
   	"purple": "#AAAAFF",
+    "light-pink": "#FFAAAA",
   	"hot-pink": "#f64472",
   	"cyan": "#66D9EF",
   	"light-cyan": "#AAFFFF",
   	"lime-green": "#A6E22E",
+    "pale-green": "#AAFFAA",
+    "off-white": "#F8F8F0",
+    "dark-grey": "#4b483d",
+    "light-grey": "#CFCFC2"
   },
   "rules": [
     {
       "name": "Comment",
       "scope": "comment",
-      "foreground": "#4b483d"
+      "foreground": "var(dark-grey)"
     },
     {
       "name": "String",
@@ -144,23 +150,23 @@
       "name": "Invalid",
       "scope": "invalid",
       "background": "var(hot-pink)",
-      "foreground": "#F8F8F0"
+      "foreground": "var(off-white)"
     },
     {
       "name": "Invalid deprecated",
       "scope": "invalid.deprecated",
       "background": "var(fuschia)",
-      "foreground": "#F8F8F0"
+      "foreground": "var(off-white)"
     },
     {
       "name": "JSON String",
       "scope": "meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#CFCFC2"
+      "foreground": "var(light-grey)"
     },
     {
       "name": "diff.header",
       "scope": "meta.diff, meta.diff.header",
-      "foreground": "#4b483d"
+      "foreground": "var(dark-grey)"
     },
     {
       "name": "diff.deleted",
@@ -179,7 +185,7 @@
     },
     {
       "scope": "constant.numeric.line-number.find-in-files - match",
-      "foreground": "#AE81FF"
+      "foreground": "var(purple)"
     },
     {
       "scope": "entity.name.filename.find-in-files",
@@ -4795,1347 +4801,1347 @@
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#var(purple)"
+      "foreground": "var(purple)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#FFAAAA"
+      "foreground": "var(light-pink)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#AAFFAA"
+      "foreground": "var(pale-green)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#AAFFAA"
+      "foreground": "var(pale-green)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#AAFFAA"
+      "foreground": "var(pale-green)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#AAFFAA"
+      "foreground": "var(pale-green)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#AAFFAA"
+      "foreground": "var(pale-green)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#AAFFAA"
+      "foreground": "var(pale-green)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#AAFFAA"
+      "foreground": "var(pale-green)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#AAFFAA"
+      "foreground": "var(pale-green)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#AAFFAA"
+      "foreground": "var(pale-green)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#AAFFAA"
+      "foreground": "var(pale-green)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#AAFFAA"
+      "foreground": "var(pale-green)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#AAFFAA"
+      "foreground": "var(pale-green)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#AAFFAA"
+      "foreground": "var(pale-green)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#AAFFAA"
+      "foreground": "var(pale-green)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#AAFFAA"
+      "foreground": "var(pale-green)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#AAFFAA"
+      "foreground": "var(pale-green)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#AAFFAA"
+      "foreground": "var(pale-green)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#AAFFAA"
+      "foreground": "var(pale-green)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#AAFFAA"
+      "foreground": "var(pale-green)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#AAFFAA"
+      "foreground": "var(pale-green)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#AAFFAA"
+      "foreground": "var(pale-green)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#AAFFAA"
+      "foreground": "var(pale-green)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#AAFFAA"
+      "foreground": "var(pale-green)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#AAFFAA"
+      "foreground": "var(pale-green)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#AAFFAA"
+      "foreground": "var(pale-green)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#AAFFAA"
+      "foreground": "var(pale-green)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#AAFFAA"
+      "foreground": "var(pale-green)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#AAFFAA"
+      "foreground": "var(pale-green)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#AAFFAA"
+      "foreground": "var(pale-green)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#AAFFAA"
+      "foreground": "var(pale-green)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#AAFFAA"
+      "foreground": "var(pale-green)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#AAFFAA"
+      "foreground": "var(pale-green)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#AAFFAA"
+      "foreground": "var(pale-green)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#AAFFAA"
+      "foreground": "var(pale-green)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#AAFFAA"
+      "foreground": "var(pale-green)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#AAFFAA"
+      "foreground": "var(pale-green)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#AAFFAA"
+      "foreground": "var(pale-green)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#AAFFAA"
+      "foreground": "var(pale-green)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#AAFFAA"
+      "foreground": "var(pale-green)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#AAFFAA"
+      "foreground": "var(pale-green)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#AAFFAA"
+      "foreground": "var(pale-green)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#AAFFAA"
+      "foreground": "var(pale-green)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#AAFFAA"
+      "foreground": "var(pale-green)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#AAFFAA"
+      "foreground": "var(pale-green)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#AAFFAA"
+      "foreground": "var(pale-green)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#AAFFAA"
+      "foreground": "var(pale-green)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#AAFFAA"
+      "foreground": "var(pale-green)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#AAFFAA"
+      "foreground": "var(pale-green)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json string.quoted.double.json",
@@ -6271,15 +6277,15 @@
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#AAFFFF"
+      "foreground": "var(light-cyan)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#AAFFFF"
+      "foreground": "var(light-cyan)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#AAFFFF"
+      "foreground": "var(light-cyan)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json string.quoted.double.json",
