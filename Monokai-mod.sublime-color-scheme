@@ -31,7 +31,8 @@
   	"purple": "#AAAAFF",
   	"hot-pink": "#F92672",
   	"cyan": "#66D9EF",
-  	"lime-green": "#A6E22E"
+  	"light-cyan": "#AAFFFF",
+  	"lime-green": "#A6E22E",
   },
   "rules": [
     {
@@ -178,7 +179,7 @@
     },
     {
       "scope": "constant.numeric.line-number.find-in-files - match",
-      "foreground": "#AE81FFA0"
+      "foreground": "#AE81FF"
     },
     {
       "scope": "entity.name.filename.find-in-files",
@@ -6234,39 +6235,39 @@
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#AAFFFF"
+      "foreground": "var(light-cyan)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#AAFFFF"
+      "foreground": "var(light-cyan)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#AAFFFF"
+      "foreground": "var(light-cyan)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#AAFFFF"
+      "foreground": "var(light-cyan)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#AAFFFF"
+      "foreground": "var(light-cyan)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#AAFFFF"
+      "foreground": "var(light-cyan)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json string.quoted.double.json",
-      "foreground": "#AAFFFF"
+      "foreground": "var(light-cyan)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json",
-      "foreground": "#AAFFFF"
+      "foreground": "var(light-cyan)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json string.quoted.double.json",
-      "foreground": "#AAFFFF"
+      "foreground": "var(light-cyan)"
     },
     {
       "scope": "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.array.json string.quoted.double.json",
